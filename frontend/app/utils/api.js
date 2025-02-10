@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://192.168.148.120:5000/expenses",
+  baseURL: "https://expense-tracker-backend-7344.onrender.com/expenses",
 });
 
 export const setAuthHeader = (token) => {
