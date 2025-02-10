@@ -14,7 +14,7 @@ const LoginScreen = () => {
   const handleLogin = async () => {
     try {
       const response = await axios.post(
-        "http://192.168.148.120:5000/auth/login",
+        "https://expense-tracker-backend-7344.onrender.com/auth/login",
         {
           email,
           password,
